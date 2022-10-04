@@ -1,0 +1,50 @@
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.heading
+{
+width: 100%;
+text-align: left;
+
+}
+.heading h3{
+    display: inline;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.heading button{
+    float: right;
+    border: 1px solid white;
+}
+
+#start ,#status, #restart
+{
+font-size: 20px;
+}
+
+.modal-dialog
+{
+    width: 70%;
+}
+.modal-body
+{
+    text-align: left;
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+h4
+{
+   background-color: grey;
+   color:white;
+   line-height: 2;
+ position: fixed;
+ width: 100%;
+ margin-bottom: 0px;
+}
+canvas 
+  {
+      border:13px solid rgb(0, 0, 0);
+      border-radius: 10px;
+      box-shadow:  5px 5px 5px rgb(143, 138, 138);
+  }
